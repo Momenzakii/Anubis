@@ -8,6 +8,7 @@ import FAQ from "./FAQ";
 import Booking from "./Booking";
 import Blog from "./Blog";
 import Footer from "./Footer";
+import heroImage from "../assets/camel-surfboard-beach-against-clear-sky_1048944-14395678 (1).jpg";
 
 const Home = () => {
   return (
@@ -70,19 +71,19 @@ const Home = () => {
         </div>
         <div className="md:w-1/2 mt-10 md:mt-0">
           <img
-            src="/src/assets/camel-surfboard-beach-against-clear-sky_1048944-14395678 (1).jpg"
+            src={heroImage}
             alt="hero"
             className="rounded-2xl shadow-2xl w-full"
           />
         </div>
       </section>
-          <Properties />
-          <Booking />
-          <Blog />
-          <Contact />
-          <FAQ />
-          <About />
-          <Footer />
+      <Properties />
+      <Booking />
+      <Blog />
+      <Contact />
+      <FAQ />
+      <About />
+      <Footer />
     </div>
   );
 };
