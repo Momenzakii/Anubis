@@ -2,7 +2,7 @@
   "name": "frontend",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://github.com/Momenzakii/anubis",
+  "homepage": "https://github.com/Momenzakii/Anubis",
   "type": "module",
   "scripts": {
     "dev": "vite",
